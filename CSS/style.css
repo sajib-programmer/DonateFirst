@@ -1,0 +1,170 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navigation-area {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 90vh;
+    background-image: url(../images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: whitesmoke;
+}
+
+.nav-content-group {
+    position: absolute;
+    width: 70%;
+    height: 60%;
+    left: 15%;
+    top: 25%;
+    position: relative;
+
+}
+
+.content-align {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.nav-h1 {
+    font-size: 50px;
+}
+
+.link {
+    color: whitesmoke;
+    background-image: linear-gradient(to bottom right, tomato, red);
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 45%;
+    margin-top: 4%;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.donate-area {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+    position: relative;
+}
+
+.second-header {
+    font-size: 40px;
+}
+
+.donate-content-group {
+    position: absolute;
+    width: 70%;
+    height: 60%;
+    left: 15%;
+    top: 20%;
+}
+
+.donate-amount-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 4%;
+}
+
+.donate-amount {
+    margin: 2% 2%;
+    padding: 2% 3%;
+    background-color: aliceblue;
+}
+
+#amount-mark {
+    border: 1px solid chocolate;
+    background-color: bisque;
+    color: tomato;
+}
+
+#input-box {
+    margin: 5px 5px;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+.donate-plan {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+    position: relative;
+}
+
+.donate-plan-group {
+    position: absolute;
+    width: 80%;
+    height: 60%;
+    left: 10%;
+    top: 10%;
+}
+
+.donate-plan-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+}
+
+.plan {
+    margin: 1% 1%;
+    padding: 4% 1%;
+    width: 30%;
+    height: 1000%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px cornsilk;
+}
+
+.plan img {
+    margin-top: -4%;
+}
+
+h3 {
+    margin: 5% 0%;
+}
+
+.plan-p-justify {
+    text-align: justify;
+}
+
+.bg-1 {
+    background-color: bisque;
+}
+
+.bg-2 {
+    background-color: burlywood;
+}
+
+.bg-3 {
+    background-color: rosybrown;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 14px 15px;
+    height: 80px;
+}
+
+footer h3 {
+    margin: 10px;
+}
